@@ -1,0 +1,111 @@
+/* css reset by josh comeau */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+g,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  background-color: black;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  main {
+    width: 100%;
+    height: 100dvh;
+    display: grid;
+    grid-template-columns:  1fr;
+    height: 100dvh;
+  }
+
+  .text {
+    background-color: #ff4191;
+    box-shadow: inset 0px -5px 16px #e90074;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    padding: 2.5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    color: #fff078;
+  }
+
+  h1 {
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  button {
+    margin: 1rem;
+    border: 3px solid #fff078;
+    font-size: 3rem;
+    background-color: #fff078;
+    color: #e90074;
+    cursor: pointer;
+  }
+
+  .add-btn {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .reset-btn {
+    width: 50%;
+    padding: 0.25rem;
+    border-radius: 1.5rem;
+  }
+
+  button:hover {
+    border: 3px solid #e90074;
+  }
+
